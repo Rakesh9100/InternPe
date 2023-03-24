@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #97006a, #2d05b0);
+}
+
+header {
+    background-color: #29506D;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+section.nomi{
+    padding: 25px 100px 25px 100px;
+}
+
+.nomi h1 {
+    text-align: center;
+    background-color: #f01920;
+    color: yellow;
+    font-size: 41px;
+    font-weight: 700;
+    margin-bottom: 9px;
+    text-decoration: underline dashed;
+}
+
+.nomi h2 {
+    text-align: center;
+    color: rgb(33, 229, 255);
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.nomi h2 span {
+    background-color: rgb(4, 255, 0);
+    color: #ff1414;
+    font-size: 27px;
+}
+
+.nomi h3 {
+    text-align: center;
+    color: rgb(36, 255, 62);
+    font-size: 21px;
+    margin-bottom: 29px;
+}
+
+.nomi p {
+    color: rgb(33, 229, 255);
+    font-size: 19px;
+    margin-bottom: 17px;
+}
+
+.nomi a {
+    color: #52ff58;
+    font-size: 16px;
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
+}
+
+.nomi a:hover {
+    color: #dff536;
+}
+
+.logo {
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+.form1 {
+    margin-left: 550px;
+    margin-top: -550px;
+    margin-bottom: 55px;
+}
+
+form {
+    background-color: #d2cdcd;
+    border: 10px solid #ddf714;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    width: 80%;
+}
+
+form label {
+    color: #333;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form textarea:focus {
+    background-color: #fff;
+    border: 1px solid #4CAF50;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background-color: #398441;
+}
+
+.container h1 {
+    font-size: 36px;
+    color: yellow;
+    margin-bottom: 25px;
+}
+
+.criteria,
+.criteria1 {
+    padding: 21px 25px;
+    background: #f407079b;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.criteria h2 {
+    font-size: 27px;
+    color: #52ff58;
+    text-decoration: underline dotted;
+    margin-bottom: 14px;
+}
+
+.criteria p {
+    color: #fcff6a;
+}
+
+.criteria h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 14px;
+    text-decoration: underline double;
+}
+
+.criteria h3 span {
+    background: #29f8e0;
+    padding: 2.5px;
+    color: #97006a;
+    font-size: 23px;
+}
+
+.criteria1 h2 {
+    font-size: 27px;
+    color: #fdfdfd;
+    text-decoration: underline dotted;
+    margin-bottom: 14px;
+}
+
+.criteria1 ul {
+    color: #09d8e7;
+    font-weight: 800;
+}
+
+.criteria1 p {
+    color: #09d8e7;
+    font-weight: 800;
+}
+
+@media (max-width: 600px) {
+    form {
+        margin: 0 20px;
+    }
+}
