@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(57deg ,rgb(55, 254, 33), rgb(37, 88, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    height: 500px;
+    width: 340px;
+    border-radius: 32px;
+    background: rgba(232, 13, 217, 0.634);
+    box-shadow: 0px 12px 20px 8px rgba(124, 124, 124, 0.041), 0px 12px 20px 8px rgba(255, 255, 255, 0.041);
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero table {
+    height: 70%;
+    width: 100%;
+}
+#res{
+    box-shadow: 0px 0px 7px 2px rgba(124, 124, 124, 0.041), 0px 12px 20px 8px rgba(255, 255, 255, 0.041);
+    background: rgb(210, 206, 255);
+    height: 70px;
+    width: 229px;
+    border: 1px solid rebeccapurple;
+    border-radius: 12px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    font-size: 26px;
+    overflow-x: auto;
+}
+
+.hero table td button {
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 2px rgba(124, 124, 124, 0.041), 0px 12px 20px 8px rgba(255, 255, 255, 0.041);
+    background: rgb(210, 206, 255);
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    outline: none;
+    font-size: 29px;
+    border-radius: 12px;
+    height: 70px;
+    width: 70px;
+    margin: 3px;
+}
+
+.hero table td button:hover{
+    background: rgba(255, 255, 255, 0.267);
+    color: rgb(207, 215, 231);
+}
+
+.head{
+    font-size: 48px;
+    color:rgb(210, 206, 255);
+    margin-bottom: 12px;
+}

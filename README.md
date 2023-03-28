@@ -17,3 +17,7 @@
 ### Task-1 : Placement Drive Registration Page
 
 <https://rakesh9100.github.io/InternPe/Task-1/index.html>
+
+### Task-2 : Calculator
+
+<https://rakesh9100.github.io/InternPe/Task-2/index.html>
