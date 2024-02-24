@@ -1,4 +1,4 @@
-# InternPe
+# <p align="center">📝InternPe📝</p>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/73993775/227628899-c44dd6c1-dc56-4852-b515-2d3261dbff6f.jpg"></p>
 
